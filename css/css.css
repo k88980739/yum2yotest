@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
 
 body{
   text-align: center;
@@ -6,6 +7,7 @@ body{
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 h1{
