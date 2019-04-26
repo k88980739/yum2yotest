@@ -1,0 +1,550 @@
+
+body{
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1{
+  position: relative;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 20%;
+  font-size: 2.0em;
+  }
+
+
+/* 여기는 바디 영역입니다 */
+
+.frame{
+  position: absolute;
+  width: 1920px;
+  height: 5760px;
+}
+
+
+/* 여기는 메인 영역입니다. 1/2/3 슬라이드 */
+.logo{
+  position:absolute;
+  top: 10px;
+  left: 200px;
+  padding-left: 20 auto;
+  font-size: 2.5em; color: white;
+  text-decoration: none;
+}
+
+.logo1{
+  position:absolute;
+  top: 20px;
+  right: 200px;
+  padding-left: 20 auto;
+  font-size: 1.5em; color: white;
+  text-decoration: none;
+}
+
+.main-frame{
+  width: 1920px;
+  height: 960px;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../img/cut/top_visual_01.png);
+
+
+}
+
+.main-frame-text{
+  position:relative;
+  top:30%;
+  left:50%
+  border: 1px solid rgba(255, 0, 0, 0.5);
+  font-size: 4.0em; color: white;
+}
+
+.main-frame-text2{
+  position:relative;
+  top:35%;
+  left:50%
+  border: 1px solid rgba(255, 0, 0, 0.5);
+  font-size: 1.2em; color: white;
+}
+
+
+/* 여기는 두번째 영역(어바웃링크투어)입니다. */
+.one-frame{
+  position: relative;
+  text-align: left;
+  width: 1920px;
+  height: 960px;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../img/cut/img_about_bg.png);
+}
+
+.menu-name{
+  position: absolute;
+  top: 160px;
+  left: 350px;
+  font-size: 3.5em;
+}
+
+.one-frame-text{
+  position: absolute;
+  top: 370px;
+  left: 350px;
+  font-size: 1.5em;
+}
+
+.one-frame-text2{
+  width: 660px;
+  position: absolute;
+  bottom: 340px;
+  left: 350px;
+}
+
+.one-frame-img{
+  position: absolute;
+  text-align: center;
+  top: 230px;
+  right: 240px;
+}
+
+
+/* 여기는 세번째 영역(비지니스 아레아)입니다. */
+
+.two-frame{
+  position: relative;
+  text-align: center;
+  width: 1920px;
+  height: 960px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background-image: url(../img/cut/img_business_bg.png);
+}
+
+.two-frame-img{
+  position: relative;
+  float: left;
+  top: 300px;
+  left: 350px;
+  margin: 100px 50px 50px 100px;
+  padding: 100px 50px 50px 100px;
+}
+
+
+.two-frame-text1{
+  position: absolute;
+  margin: 100px 50px 50px 100px;
+  padding: 80px 50px 50px 80px;
+  top: 480px;
+  left: 410px;
+  font-size: 1.5em;
+}
+
+.two-frame-text2{
+  position: absolute;
+  margin: 100px 50px 50px 100px;
+  padding: 80px 50px 50px 80px;
+  top: 480px;
+  left : 790px;
+  font-size: 1.5em;
+}
+
+.two-frame-text3{
+  position: absolute;
+  margin: 100px 50px 50px 100px;
+  padding: 80px 50px 50px 80px;
+  top: 480px;
+  right: 350px;
+  font-size: 1.5em;
+}
+
+.two-frame-text1-1{
+  position: absolute;
+  margin: 100px 50px 50px 100px;
+  padding: 80px 50px 50px 80px;
+  top: 530px;
+  left: 280px;
+}
+
+.two-frame-text1-2{
+  position: absolute;
+  margin: 100px 50px 50px 100px;
+  padding: 80px 50px 50px 80px;
+  top: 530px;
+  left: 660px;
+}
+
+.two-frame-text1-3{
+  position: absolute;
+  margin: 100px 50px 50px 100px;
+  padding: 80px 50px 50px 80px;
+  top: 530px;
+  right: 220px;
+}
+
+.BUSINESSarea{
+  position: absolute;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 960px;
+  height: 200px;
+  top: 200px;
+  right: 0px;
+  font-size: 8.0em;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.05);
+}
+
+
+
+
+/* 여기는 네번째 영역(물류관리시스템lis)입니다. */
+
+.three-frame{
+  position: relative;
+  text-align: left;
+  width: 1920px;
+  height: 960px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.three-frame-img{
+  position:relative;
+  text-align: center;
+  top: 160px;
+}
+
+.three-frame-img2{
+  position: absolute;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  top: 250px;
+  right: 350px;
+}
+
+.three-frame-sub{
+  position: relative;
+  text-align: left;
+  float: left;
+  top: 220px;
+  left: 370px;
+  width: 245px;
+  height: 120px;
+  margin: 10px 10px 10px 10px;
+  padding: 0px 0px 0px 5px;
+  font-size: 0.8em;
+  color:black;
+  border: 1px solid rgba(189, 189, 189, 0.5);
+  transition: 0.5s;
+  text-decoration: none;
+
+}
+
+.three-frame-sub:hover{
+  color:white;
+  background-color: rgb(32, 175, 235);
+}
+
+
+
+
+/* 여기는 다섯번째 영역(채용정보)입니다. */
+
+.four-frame{
+  position: relative;
+  text-align: left;
+  width: 1920px;
+  height: 960px;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(255, 255, 255);
+  background-image: url(../img/cut/img_recruit_bg.png);
+}
+
+.four-frame-sub {
+  position: absolute;
+  text-align: center;
+  width: 1200px;
+  height: 500px;
+  top:280px;
+  left:360px;
+}
+
+.four-frame-sub-left{
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  text-align: left;
+}
+
+.four-frame-sub-right{
+  position: absolute;
+  text-align: left;
+  width: 600px;
+  height: 500px;
+  right: 0px;
+}
+
+.four-frame-sub-left-name{
+  font-size: 1.8em;
+}
+
+
+.four-frame-sub-left-text{
+  font-size: ;
+}
+
+.four-frame-imgstyle{
+  width: 540px;
+  height: 100px;
+}
+
+.four-frame-sub-right-subleft{
+  position: absolute;
+  text-align: left;
+  width: 500px;
+  left: 100px;
+  bottom: 160px;
+}
+
+.four-frame-sub-right-subright{
+  position: relative;
+  text-align: right;
+  width: 500px;
+  bottom: 365px;
+  right: 5px;
+}
+
+.four-frame-sub-right-subright-img{
+  position: relative;
+  text-align: right;
+  bottom: 150px;
+}
+
+
+
+/* 여기는 여섯번째 영역 (contact)영역입니다. */
+
+.five-frame{
+  position: absolute;
+  width: 1920px;
+  height: 960px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+.five-frame-left{
+  position: absolute;
+  left:0;
+  width: 960px;
+  height: 960px;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../img/cut/img_contact_bg.png);
+}
+
+.five-frame-left-main{
+  position: absolute;
+  text-align: left;
+  width: 30px;
+  height: 200px;
+  margin-top: 300px;
+  margin-left: 370px;
+}
+
+.five-frame-left-main-sub{
+  position: relative;
+  text-align: left;
+  width: 200px;
+  margin-left: 410px;
+  margin-top:305px;
+}
+
+.copyright{
+  position: relative;
+  left: 80px;
+  Top: 220px;
+}
+
+/* 여기는 여섯번째 영역 (제품문의)영역입니다. */
+
+
+
+
+.five-frame-right{
+  position: absolute;
+  text-align: left;
+  color: black;
+  right: 0px;
+  width: 960px;
+  height: 960px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.five-frame-img{
+  position: absolute;
+  right: 0px;
+  width: 380px;
+  height: 230px;
+  top:0px;
+  right: 0px;
+  background-image: url(../img/cut/img_request_bg.png);
+}
+
+.five-frame-right-form{
+  position: relative;
+  text-align: left;
+  width: 560px;
+  margin-left: 70px;
+  margin-top: 150px;
+  color: rgb(32, 175, 235);
+}
+
+
+
+
+
+
+
+
+.buttonstyle{
+  padding: 0.8em 10em;
+  border: 1px solid #fff;
+  background-color: rgb(32, 175, 235);
+  color: white;
+  font-size: 1.0em;
+  font-weight: 900;
+  box-shadow: 0 50px 50px #fff;
+}
+
+
+
+
+/* 보고 배껴온거 */-ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+
+
+
+
+
+
+* { box-sizing:border-box; }
+
+/* basic stylings ------------------------------------------ */
+body 				 { background:url(https://scotch.io/wp-content/uploads/2014/07/61.jpg); }
+.container 		{
+  font-family:'Roboto';
+  width:600px;
+  margin:30px auto 0;
+  display:block;
+  background:#FFF;
+  padding:10px 50px 50px;
+}
+h2 		 {
+  text-align:center;
+  margin-bottom:50px;
+}
+h2 small {
+  font-weight:normal;
+  color:#888;
+  display:block;
+}
+
+/* form starting stylings ------------------------------- */
+.group 			  {
+  position:relative;
+  margin-bottom:45px;
+}
+input 				{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+label 				 {
+  color:#999;
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#5264AE;
+}
+
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px;
+  width:0;
+  bottom:1px;
+  position:absolute;
+  background:#5264AE;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%;
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%;
+  width:100px;
+  top:25%;
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
